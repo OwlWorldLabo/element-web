@@ -236,16 +236,16 @@ const RoomSummaryCardView: React.FC<IProps> = ({
                     checked={vm.isFavorite}
                     onSelect={vm.onFavoriteToggleClick}
                 />
-                <MenuItem
-                    Icon={UserAddIcon}
-                    label={_t("action|invite")}
-                    disabled={!vm.canInviteToState}
-                    onSelect={vm.onInviteToRoomClick}
-                />
+                {/*<MenuItem*/}
+                {/*    Icon={UserAddIcon}*/}
+                {/*    label={_t("action|invite")}*/}
+                {/*    disabled={!vm.canInviteToState}*/}
+                {/*    onSelect={vm.onInviteToRoomClick}*/}
+                {/*/>*/}
 
                 <Separator />
 
-                <MenuItem Icon={UserProfileIcon} label={_t("common|people")} onSelect={vm.onRoomMembersClick} />
+                {/*<MenuItem Icon={UserProfileIcon} label={_t("common|people")} onSelect={vm.onRoomMembersClick} />*/}
                 <MenuItem Icon={ThreadsIcon} label={_t("common|threads")} onSelect={vm.onRoomThreadsClick} />
                 {!vm.isVideoRoom && (
                     <>
@@ -263,11 +263,11 @@ const RoomSummaryCardView: React.FC<IProps> = ({
                             label={_t("right_panel|files_button")}
                             onSelect={vm.onRoomFilesClick}
                         />
-                        <MenuItem
-                            Icon={ExtensionsIcon}
-                            label={_t("right_panel|extensions_button")}
-                            onSelect={vm.onRoomExtensionsClick}
-                        />
+                        {/*<MenuItem*/}
+                        {/*    Icon={ExtensionsIcon}*/}
+                        {/*    label={_t("right_panel|extensions_button")}*/}
+                        {/*    onSelect={vm.onRoomExtensionsClick}*/}
+                        {/*/>*/}
                     </>
                 )}
 
@@ -277,11 +277,11 @@ const RoomSummaryCardView: React.FC<IProps> = ({
 
                 {!vm.isVideoRoom && (
                     <>
-                        <MenuItem
-                            Icon={PollsIcon}
-                            label={_t("right_panel|polls_button")}
-                            onSelect={vm.onRoomPollHistoryClick}
-                        />
+                        {/*<MenuItem*/}
+                        {/*    Icon={PollsIcon}*/}
+                        {/*    label={_t("right_panel|polls_button")}*/}
+                        {/*    onSelect={vm.onRoomPollHistoryClick}*/}
+                        {/*/>*/}
                         <MenuItem
                             Icon={ExportArchiveIcon}
                             label={_t("export_chat|title")}

@@ -84,9 +84,9 @@ export const UserInfoHeaderView: React.FC<UserInfoHeaderViewProps> = ({
                         </Tooltip>
                     )}
                     <Text size="sm" weight="semibold" className="mx_UserInfo_profile_mxid">
-                        <CopyableText getTextToCopy={() => vm.userIdentifier} border={false}>
-                            {vm.userIdentifier}
-                        </CopyableText>
+                        {/*<CopyableText getTextToCopy={() => vm.userIdentifier} border={false}>*/}
+                        {/*    {vm.userIdentifier}*/}
+                        {/*</CopyableText>*/}
                     </Text>
                 </Flex>
                 {!hideVerificationSection && <UserInfoHeaderVerificationView member={member} devices={devices} />}
