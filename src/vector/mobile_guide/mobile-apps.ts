@@ -38,10 +38,10 @@ export const mobileApps: Record<MobileAppVariant, MobileAppMetadata> = {
         isProApp: false,
     },
     [MobileAppVariant.X]: {
-        name: "Element X",
+        name: "Element Classic",
         appleAppId: "id1631335820",
-        appStoreUrl: "https://apps.apple.com/app/element-x-secure-chat-call/id1631335820",
-        playStoreUrl: "https://play.google.com/store/apps/details?id=io.element.android.x",
+        appStoreUrl: "https://apps.apple.com/us/app/element-classic/id1083446067",
+        playStoreUrl: "https://play.google.com/store/apps/details?id=im.vector.app",
         fDroidUrl: "https://f-droid.org/packages/io.element.android.x",
         deepLinkPath: "/element",
         usesLegacyDeepLink: false,

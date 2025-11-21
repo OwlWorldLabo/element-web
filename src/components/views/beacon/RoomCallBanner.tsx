@@ -65,10 +65,10 @@ const RoomCallBannerInner: React.FC<RoomCallBannerProps> = ({ roomId, call }) =>
 
     return (
         <div className="mx_RoomCallBanner" onClick={onClick}>
-            <div className="mx_RoomCallBanner_text">
-                <span className="mx_RoomCallBanner_label">{_t("voip|video_call")}</span>
-                <SessionDuration session={call.session} />
-            </div>
+            {/*<div className="mx_RoomCallBanner_text">*/}
+            {/*    <span className="mx_RoomCallBanner_label">{_t("voip|video_call")}</span>*/}
+            {/*    <SessionDuration session={call.session} />*/}
+            {/*</div>*/}
 
             <AccessibleButton onClick={connect} kind="primary" element="button" disabled={false}>
                 {_t("action|join")}

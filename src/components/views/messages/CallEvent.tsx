@@ -69,13 +69,13 @@ const ActiveCallEvent = ({
                         <span className="mx_CallEvent_title">
                             {_t("timeline|m.call|video_call_started_text", { name: senderName })}
                         </span>
-                        <LiveContentSummary
-                            type={LiveContentType.Video}
-                            text={_t("voip|video_call")}
-                            active={false}
-                            participantCount={participatingMembers.length}
-                        />
-                        <FacePile members={facePileMembers} size="24px" overflow={facePileOverflow} />
+                        {/*<LiveContentSummary*/}
+                        {/*    type={LiveContentType.Video}*/}
+                        {/*    text={_t("voip|video_call")}*/}
+                        {/*    active={false}*/}
+                        {/*    participantCount={participatingMembers.length}*/}
+                        {/*/>*/}
+                        {/*<FacePile members={facePileMembers} size="24px" overflow={facePileOverflow} />*/}
                     </div>
                     {call && <SessionDuration session={call.session} />}
                     <AccessibleButton
