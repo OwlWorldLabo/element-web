@@ -66,9 +66,9 @@ const ActiveCallEvent = ({
                 />
                 <div className="mx_CallEvent_columns">
                     <div className="mx_CallEvent_details">
-                        <span className="mx_CallEvent_title">
-                            {_t("timeline|m.call|video_call_started_text", { name: senderName })}
-                        </span>
+                        {/*<span className="mx_CallEvent_title">*/}
+                        {/*    {_t("timeline|m.call|video_call_started_text", { name: senderName })}*/}
+                        {/*</span>*/}
                         {/*<LiveContentSummary*/}
                         {/*    type={LiveContentType.Video}*/}
                         {/*    text={_t("voip|video_call")}*/}
